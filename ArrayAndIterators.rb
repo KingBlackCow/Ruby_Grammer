@@ -44,5 +44,16 @@ x = 1..100
 # puts("\n==============================")
 # z.each { |food| print food+" " }
 
-z = (1..100).to_a.shuffle
-puts (z.select { |number| number.odd?})
+# z = (1..100).to_a.shuffle
+# puts (z.select { |number| number.odd?})
+# regNumStatus = true || 0
+# puts regNumStatus #true
+#
+# regNumStatus = nil || 0
+# puts regNumStatus #0
+
+# regNumStatus = true || 1
+# puts regNumStatus  #true
+#
+# regNumStatus = nil || 1
+# puts regNumStatus #1 #

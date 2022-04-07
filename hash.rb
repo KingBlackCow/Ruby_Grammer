@@ -13,3 +13,4 @@ myhash.values
 myhash.each { |somekey, somevalue| puts somevalue }
 myhash.each { |somekey, somevalue| puts "The key is #{somekey} and the value is #{somevalue}" }
 myhash.select { |k, v| v.odd? }
+
